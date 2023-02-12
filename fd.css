@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* nav bar css */
+
+#navbar {
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 0px;
+}
+
+#logo {
+    margin: 2px 5px;
+    width: 10%;
+    height: 10%;
+}
+
+#logo img {
+    height: 59px;
+    margin: 20% 10%;
+}
+
+#navbar ul {
+    display: flex;
+}
+
+#navbar ul li {
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+#navbar ul li a {
+    color: white;
+    display: block;
+    padding: 3px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+#navbar::before {
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    content: "";
+    position: absolute;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+#navbar ul li a:hover {
+    color: black;
+    background-color: white;
+    transition: 0.1s;
+}
+
+
+/* navbar complet */
+
+
+/* home start */
+
+.home {
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    justify-content: center;
+    align-items: center;
+    height: 595px;
+}
+
+.home::before {
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background: url(./image/yoav-aziz-AiHJiRCwB3w-unsplash.jpg) no-repeat center/cover;
+    z-index: -1;
+    opacity: 0.;
+    top: 0px;
+    left: 0px;
+}
+
+.hp {
+    font-size: 2.8rem;
+    padding: 12px;
+}
+
+.home h1 {
+    color: black;
+    border: solid black;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.home p {
+    color: black;
+    text-align: center;
+    border: solid black;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 1.1rem;
+}
+
+.btn {
+    padding: 5px;
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    margin: 17px;
+    font-size: 1.rem;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+#serservice {
+    margin: 34px;
+    height: 10px;
+}
+
+#service .box {
+    border: solid 2px black;
+    margin: 10px;
+    border-radius: 1rem;
+    background-color: #d6c7c7;
+}
+
+#service .box img {
+    height: 250px;
+    margin: auto;
+    padding: 1rem;
+    display: flex;
+}
+
+.service-con {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 1rem;
+}
+
+
+/* clasees center */
+
+.hone {
+    font-size: 3.8rem;
+    padding: 12px;
+}
+
+.htwo {
+    font-size: 2.8rem;
+    padding: 12px;
+}
+
+.center {
+    text-align: center;
+}
+
+footer {
+    background-color: #d6c7c7;
+    color: #000000;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    height: auto;
+}
