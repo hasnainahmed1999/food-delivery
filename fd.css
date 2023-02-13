@@ -119,9 +119,9 @@
     cursor: pointer;
 }
 
-#serservice {
+#service {
     margin: 34px;
-    height: 10px;
+    display: flex;
 }
 
 #service .box {
